@@ -1,0 +1,87 @@
+<div>
+        
+        @livewire('homepage-welcome')
+    <livewire:statistics />
+    <livewire:about-section-component />
+    <livewire:features-section />
+    @livewire('cta')
+    <div>
+        <livewire:partners />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+    </div>
+
+    <livewire:testimonials />
+    <livewire:stats />
+    <livewire:services />
+    <livewire:pricing />
+    <livewire:faq-section />
+    <livewire:cta-section />
+    <livewire:contact />
+    
+    <div>
+        <!-- Footer Section -->
+        <footer class="bg-white text-gray-800 py-16">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 justify-between">
+                <!-- Left Column with Address and Socials -->
+                <div class="flex flex-col items-start space-y-8">
+                    <!-- Address -->
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold mb-4">Our Address</h3>
+                        <p>1234 Some St, City, Country, 56789</p>
+                    </div>
+    
+                    <!-- Social Media Links -->
+                    <div class="space-x-4">
+                        <a href="#" class="text-gray-800 hover:text-blue-400 transition duration-200"><i class="fab fa-facebook-square"></i> Facebook</a>
+                        <a href="#" class="text-gray-800 hover:text-blue-400 transition duration-200"><i class="fab fa-twitter-square"></i> Twitter</a>
+                        <a href="#" class="text-gray-800 hover:text-blue-400 transition duration-200"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="#" class="text-gray-800 hover:text-pink-400 transition duration-200"><i class="fab fa-instagram"></i> Instagram</a>
+                    </div>
+                </div>
+    
+                <!-- Center Column with Useful Links and Services -->
+                <div class="md:col-span-2 flex justify-between space-x-8">
+                    <!-- Useful Links -->
+                    <div class="mb-8 w-1/3">
+                        <h3 class="text-xl font-semibold mb-4">Useful Links</h3>
+                        <ul class="space-y-4">
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">Privacy Policy</a></li>
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">Terms of Service</a></li>
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">FAQ</a></li>
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">Contact Us</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Services -->
+                    <div class="mb-8 w-1/3">
+                        <h3 class="text-xl font-semibold mb-4">Services</h3>
+                        <ul class="space-y-4">
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">Web Development</a></li>
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">Mobile App Development</a></li>
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">SEO Services</a></li>
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">Cloud Solutions</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Dummy Category 1 -->
+                    <div class="mb-8 w-1/3">
+                        <h3 class="text-xl font-semibold mb-4">Category 1</h3>
+                        <ul class="space-y-4">
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">Item 1</a></li>
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">Item 2</a></li>
+                            <li><a href="#" class="hover:text-blue-400 transition duration-200">Item 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Bottom Footer (Copyright) -->
+            <div class="text-center py-4 border-t border-gray-200">
+                <p class="text-sm text-gray-500">© 2025 Our Company. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    
+    
+</div>
