@@ -21,6 +21,8 @@ Before you begin, ensure you have the following installed:
 - **NPM** (check using `npm -v`)
 - **Laravel 9.x** (should be handled by Composer)
 - **Livewire**
+- Mysql
+- 
 Make sure your local environment is ready with these tools.
 
 ## Installation
@@ -30,3 +32,5 @@ Make sure your local environment is ready with these tools.
    ```bash
    git clone https://github.com/your-username/laravel-one-page-livewire.git
    cd laravel-one-page-livewire
+create database website
+run migrations and database seeds
